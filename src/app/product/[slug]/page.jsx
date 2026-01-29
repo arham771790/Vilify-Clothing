@@ -3,7 +3,8 @@
 import { notFound } from "next/navigation";
 import { useState } from "react";
 import { useCart } from "../../../context/CartContext";
-import { getProductBySlug, formatCurrency } from "../../../utils/fetchProducts";
+import { getProductBySlug } from "../../../utils/fetchProducts";
+import { formatCurrency } from "../../../utils/format";
 import ProductGallery from "../../../components/ProductGallery";
 import { Check, AlertCircle, ArrowLeft } from "lucide-react";
 import Link from 'next/link';

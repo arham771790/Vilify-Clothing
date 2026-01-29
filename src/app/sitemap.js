@@ -1,4 +1,4 @@
-import { getAllProducts } from '../../utils/fetchProducts';
+import { getAllProducts } from '../utils/fetchProducts';
 
 export default function sitemap() {
   const baseUrl = 'https://vilify.com';

@@ -1,6 +1,7 @@
-import { formatCurrency } from "../utils/format";
+
 
 export function getAllProducts() {
+  // eslint-disable-next-line @typescript-eslint/no-require-imports
   const products = require('../data/products.json');
   return products;
 }
@@ -31,5 +32,3 @@ export function searchProducts(query) {
         p.category.toLowerCase().includes(lowerQuery)
     );
 }
-
-export { formatCurrency };
