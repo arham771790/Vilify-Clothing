@@ -1,0 +1,26 @@
+[
+  {
+    "id": "men",
+    "name": "Men",
+    "slug": "men",
+    "image": "https://images.pexels.com/photos/1018911/pexels-photo-1018911.jpeg"
+  },
+  {
+    "id": "women",
+    "name": "Women",
+    "slug": "women",
+    "image": "https://images.pexels.com/photos/1036623/pexels-photo-1036623.jpeg"
+  },
+  {
+    "id": "accessories",
+    "name": "Accessories",
+    "slug": "accessories",
+    "image": "https://images.pexels.com/photos/1450116/pexels-photo-1450116.jpeg"
+  },
+  {
+    "id": "shoes",
+    "name": "Shoes",
+    "slug": "shoes",
+    "image": "https://images.pexels.com/photos/1478442/pexels-photo-1478442.jpeg"
+  }
+]

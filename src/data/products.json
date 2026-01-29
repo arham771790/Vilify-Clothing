@@ -1,0 +1,363 @@
+[
+  {
+    "id": "m1",
+    "name": "Classic Black Hoodie",
+    "slug": "classic-black-hoodie",
+    "price": 4499,
+    "originalPrice": 5999,
+    "category": "Men",
+    "gender": "Men",
+    "images": [
+      "https://images.pexels.com/photos/1183266/pexels-photo-1183266.jpeg",
+      "https://images.pexels.com/photos/1183267/pexels-photo-1183267.jpeg"
+    ],
+    "sizes": ["S", "M", "L", "XL"],
+    "inStock": true,
+    "description": "Heavyweight premium cotton hoodie with a brushed interior for maximum comfort. A staple for any minimalist wardrobe."
+  },
+  {
+    "id": "m2",
+    "name": "Structured Overcoat",
+    "slug": "structured-overcoat",
+    "price": 12999,
+    "originalPrice": 16999,
+    "category": "Men",
+    "gender": "Men",
+    "images": [
+      "https://images.pexels.com/photos/1124466/pexels-photo-1124466.jpeg"
+    ],
+    "sizes": ["M", "L", "XL"],
+    "inStock": true,
+    "description": "Tailored wool-blend overcoat featuring clean lines and a modern silhouette. Perfect for layering over formal or casual attire."
+  },
+  {
+    "id": "m3",
+    "name": "Urban Cargo Trousers",
+    "slug": "urban-cargo-trousers",
+    "price": 5499,
+    "originalPrice": 7499,
+    "category": "Men",
+    "gender": "Men",
+    "images": [
+      "https://images.pexels.com/photos/1598507/pexels-photo-1598507.jpeg"
+    ],
+    "sizes": ["30", "32", "34", "36"],
+    "inStock": true,
+    "description": "Technical trousers with multiple utility pockets and an adjustable hem. Engineered for the modern city explorer."
+  },
+  {
+    "id": "m4",
+    "name": "Minimalist White Tee",
+    "slug": "minimalist-white-tee",
+    "price": 1999,
+    "originalPrice": 2499,
+    "category": "Men",
+    "gender": "Men",
+    "images": [
+      "https://images.pexels.com/photos/1018911/pexels-photo-1018911.jpeg"
+    ],
+    "sizes": ["S", "M", "L", "XL"],
+    "inStock": true,
+    "description": "Ultra-soft Pima cotton t-shirt with a refined fit. Designed to maintain its shape and softness wash after wash."
+  },
+  {
+    "id": "w1",
+    "name": "Silk Slip Dress",
+    "slug": "silk-slip-dress",
+    "price": 8999,
+    "originalPrice": 11999,
+    "category": "Women",
+    "gender": "Women",
+    "images": [
+      "https://images.pexels.com/photos/985635/pexels-photo-985635.jpeg"
+    ],
+    "sizes": ["XS", "S", "M", "L"],
+    "inStock": true,
+    "description": "Elegant silk slip dress with delicate straps and a fluid drape. A versatile piece that transitions from day to night effortlessly."
+  },
+  {
+    "id": "w2",
+    "name": "Linen Blend Blazer",
+    "slug": "linen-blend-blazer",
+    "price": 9999,
+    "originalPrice": 13999,
+    "category": "Women",
+    "gender": "Women",
+    "images": [
+      "https://images.pexels.com/photos/1036623/pexels-photo-1036623.jpeg"
+    ],
+    "sizes": ["S", "M", "L"],
+    "inStock": true,
+    "description": "Relaxed-fit blazer in a premium linen blend. Combines structured tailoring with a breathable, summery feel."
+  },
+  {
+    "id": "w3",
+    "name": "High-Waist Wide Leg Pants",
+    "slug": "high-waist-wide-leg-pants",
+    "price": 6499,
+    "originalPrice": 8999,
+    "category": "Women",
+    "gender": "Women",
+    "images": [
+      "https://images.pexels.com/photos/157675/fashion-men-s-individuality-black-and-white-157675.jpeg"
+    ],
+    "sizes": ["26", "28", "30", "32"],
+    "inStock": true,
+    "description": "Sophisticated high-waist trousers with a dramatic wide-leg silhouette. Crafted from a structured wool-crepe fabric."
+  },
+  {
+    "id": "w4",
+    "name": "Cashmere Turtleneck",
+    "slug": "cashmere-turtleneck",
+    "price": 11499,
+    "originalPrice": 14999,
+    "category": "Women",
+    "gender": "Women",
+    "images": [
+      "https://images.pexels.com/photos/1183266/pexels-photo-1183266.jpeg"
+    ],
+    "sizes": ["S", "M", "L"],
+    "inStock": true,
+    "description": "Luxurious 100% cashmere turtleneck sweater. Exceptionally soft, warm, and designed for a timeless appeal."
+  },
+  {
+    "id": "a1",
+    "name": "Heritage Gold Watch",
+    "slug": "heritage-gold-watch",
+    "price": 18999,
+    "originalPrice": 24999,
+    "category": "Accessories",
+    "gender": "Unisex",
+    "images": [
+      "https://images.pexels.com/photos/277390/pexels-photo-277390.jpeg"
+    ],
+    "sizes": ["One Size"],
+    "inStock": true,
+    "description": "Classic timepiece with a brushed gold case and a genuine leather strap. A perfect blend of heritage and modern design."
+  },
+  {
+    "id": "a2",
+    "name": "Technical Backpack",
+    "slug": "technical-backpack",
+    "price": 7999,
+    "originalPrice": 10999,
+    "category": "Accessories",
+    "gender": "Unisex",
+    "images": [
+      "https://images.pexels.com/photos/1294731/pexels-photo-1294731.jpeg"
+    ],
+    "sizes": ["One Size"],
+    "inStock": true,
+    "description": "Water-resistant commuter backpack with a dedicated laptop sleeve and multiple organizational compartments."
+  },
+  {
+    "id": "a3",
+    "name": "Premium Leather Belt",
+    "slug": "premium-leather-belt",
+    "price": 3499,
+    "originalPrice": 4999,
+    "category": "Accessories",
+    "gender": "Unisex",
+    "images": [
+      "https://images.pexels.com/photos/1450116/pexels-photo-1450116.jpeg"
+    ],
+    "sizes": ["30", "32", "34", "36"],
+    "inStock": true,
+    "description": "Handcrafted full-grain leather belt with a minimalist brushed steel buckle. An essential finishing touch."
+  },
+  {
+    "id": "a4",
+    "name": "Architectural Sunglasses",
+    "slug": "architectural-sunglasses",
+    "price": 8499,
+    "originalPrice": 11999,
+    "category": "Accessories",
+    "gender": "Unisex",
+    "images": [
+      "https://images.pexels.com/photos/1493111/pexels-photo-1493111.jpeg"
+    ],
+    "sizes": ["One Size"],
+    "inStock": true,
+    "description": "Bold square-frame sunglasses crafted from premium acetate. Features polarized lenses with 100% UV protection."
+  },
+  {
+    "id": "s1",
+    "name": "Stealth Running Sneakers",
+    "slug": "stealth-running-sneakers",
+    "price": 10999,
+    "originalPrice": 14999,
+    "category": "Shoes",
+    "gender": "Unisex",
+    "images": [
+      "https://images.pexels.com/photos/1478442/pexels-photo-1478442.jpeg"
+    ],
+    "sizes": ["7", "8", "9", "10", "11"],
+    "inStock": true,
+    "description": "High-performance sneakers with a breathable mesh upper and responsive cushioning. Designed for both speed and style."
+  },
+  {
+    "id": "s2",
+    "name": "Leather Chelsea Boots",
+    "slug": "leather-chelsea-boots",
+    "price": 14499,
+    "originalPrice": 19999,
+    "category": "Shoes",
+    "gender": "Men",
+    "images": [
+      "https://images.pexels.com/photos/298863/pexels-photo-298863.jpeg"
+    ],
+    "sizes": ["8", "9", "10", "11", "12"],
+    "inStock": true,
+    "description": "Timeless Chelsea boots handcrafted from premium calfskin leather. Features elasticated side gussets and a durable sole."
+  },
+  {
+    "id": "s3",
+    "name": "Minimalist White Sneakers",
+    "slug": "minimalist-white-sneakers",
+    "price": 8999,
+    "originalPrice": 11999,
+    "category": "Shoes",
+    "gender": "Unisex",
+    "images": [
+      "https://images.pexels.com/photos/1456706/pexels-photo-1456706.jpeg"
+    ],
+    "sizes": ["6", "7", "8", "9", "10"],
+    "inStock": true,
+    "description": "Clean, uncomplicated sneakers made from soft nappa leather. A versatile staple that defines the modern minimalist aesthetic."
+  },
+  {
+    "id": "s4",
+    "name": "Suede Loafers",
+    "slug": "suede-loafers",
+    "price": 11999,
+    "originalPrice": 15999,
+    "category": "Shoes",
+    "gender": "Men",
+    "images": [
+      "https://images.pexels.com/photos/292999/pexels-photo-292999.jpeg"
+    ],
+    "sizes": ["8", "9", "10", "11"],
+    "inStock": true,
+    "description": "Premium suede loafers with a comfortable cushioned footbed. Perfect for adding a touch of sophistication to any casual look."
+  },
+  {
+    "id": "m5",
+    "name": "Denim Trucker Jacket",
+    "slug": "denim-trucker-jacket",
+    "price": 6999,
+    "originalPrice": 8999,
+    "category": "Men",
+    "gender": "Men",
+    "images": [
+      "https://images.pexels.com/photos/1124466/pexels-photo-1124466.jpeg"
+    ],
+    "sizes": ["S", "M", "L", "XL"],
+    "inStock": true,
+    "description": "Vintage-inspired denim jacket with a modern tailored fit. Features custom hardware and heavy-duty stitching."
+  },
+  {
+    "id": "w5",
+    "name": "Oversized Knit Sweater",
+    "slug": "oversized-knit-sweater",
+    "price": 5499,
+    "originalPrice": 7499,
+    "category": "Women",
+    "gender": "Women",
+    "images": [
+      "https://images.pexels.com/photos/2983464/pexels-photo-2983464.jpeg"
+    ],
+    "sizes": ["XS", "S", "M", "L"],
+    "inStock": true,
+    "description": "Chunky oversized sweater in a soft wool-blend. Designed for a cozy, relaxed silhouette without sacrificing style."
+  },
+  {
+    "id": "a5",
+    "name": "Noir Core Beanie",
+    "slug": "noir-core-beanie",
+    "price": 1499,
+    "originalPrice": 2499,
+    "category": "Accessories",
+    "gender": "Unisex",
+    "images": [
+      "https://images.pexels.com/photos/1878821/pexels-photo-1878821.jpeg"
+    ],
+    "sizes": ["One Size"],
+    "inStock": true,
+    "description": "Soft-touch ribbed beanie crafted from organic cotton. A warm and breathable essential for cooler conditions."
+  },
+  {
+    "id": "m6",
+    "name": "Monochrome Wool Scarf",
+    "slug": "monochrome-wool-scarf",
+    "price": 2499,
+    "originalPrice": 3499,
+    "category": "Men",
+    "gender": "Men",
+    "images": [
+      "https://images.pexels.com/photos/1018911/pexels-photo-1018911.jpeg"
+    ],
+    "sizes": ["One Size"],
+    "inStock": true,
+    "description": "Generously sized wool scarf with a subtle weave texture. Designed to provide exceptional warmth and an elegant drape."
+  },
+  {
+    "id": "w6",
+    "name": "Tailored Column Skirt",
+    "slug": "tailored-column-skirt",
+    "price": 4999,
+    "originalPrice": 6999,
+    "category": "Women",
+    "gender": "Women",
+    "images": [
+      "https://images.pexels.com/photos/985635/pexels-photo-985635.jpeg"
+    ],
+    "sizes": ["24", "26", "28", "30"],
+    "inStock": true,
+    "description": "Sleek column skirt with a structured finish and a subtle back slit. A masterclass in minimalist evening wear."
+  },
+  {
+    "id": "s5",
+    "name": "Urban Stealth Boots",
+    "slug": "urban-stealth-boots",
+    "price": 13999,
+    "originalPrice": 18999,
+    "category": "Shoes",
+    "gender": "Unisex",
+    "images": [
+      "https://images.pexels.com/photos/1478442/pexels-photo-1478442.jpeg"
+    ],
+    "sizes": ["7", "8", "9", "10", "11"],
+    "inStock": true,
+    "description": "Technical field boots with a reinforced toe and weather-resistant leather. Built for any terrain, designed for the city."
+  },
+  {
+    "id": "a6",
+    "name": "Minimalist Card Holder",
+    "slug": "minimalist-card-holder",
+    "price": 1999,
+    "originalPrice": 2999,
+    "category": "Accessories",
+    "gender": "Unisex",
+    "images": [
+      "https://images.pexels.com/photos/1450116/pexels-photo-1450116.jpeg"
+    ],
+    "sizes": ["One Size"],
+    "inStock": true,
+    "description": "Ultra-slim card holder crafted from smooth Italian leather. Features four slots and a central pocket for essentials."
+  },
+  {
+    "id": "w7",
+    "name": "Structured Canvas Tote",
+    "slug": "structured-canvas-tote",
+    "price": 3499,
+    "originalPrice": 4999,
+    "category": "Accessories",
+    "gender": "Women",
+    "images": [
+      "https://images.pexels.com/photos/1294731/pexels-photo-1294731.jpeg"
+    ],
+    "sizes": ["One Size"],
+    "inStock": true,
+    "description": "Heavyweight canvas tote with reinforced leather handles. A perfect combination of durability and minimalist design."
+  }
+]

@@ -1,0 +1,484 @@
+@import "tailwindcss";
+
+/* ========================================
+   PREMIUM DESIGN SYSTEM - Zara/Nike/Apple Inspired
+   ======================================== */
+
+:root {
+  /* Premium Light Mode */
+  --bg-primary: #FFFFFF;
+  --bg-secondary: #FAFAFA;
+  --bg-tertiary: #F5F5F5;
+  --bg-accent: #0A0A0A;
+  
+  --text-primary: #0A0A0A;
+  --text-secondary: #525252;
+  --text-muted: #A3A3A3;
+  --text-inverse: #FFFFFF;
+  
+  --border-color: #E5E5E5;
+  --border-hover: #D4D4D4;
+  
+  --accent-primary: #0A0A0A;
+  --accent-secondary: #262626;
+  --accent-gradient: linear-gradient(135deg, #0A0A0A 0%, #262626 100%);
+  
+  --glass-bg: rgba(255, 255, 255, 0.8);
+  --glass-border: rgba(0, 0, 0, 0.05);
+  
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.04);
+  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.05);
+  --shadow-lg: 0 8px 30px rgba(0, 0, 0, 0.08);
+  --shadow-xl: 0 20px 60px rgba(0, 0, 0, 0.1);
+}
+
+.dark {
+  /* Premium Dark Mode */
+  --bg-primary: #0A0A0A;
+  --bg-secondary: #111111;
+  --bg-tertiary: #1A1A1A;
+  --bg-accent: #FFFFFF;
+  
+  --text-primary: #FAFAFA;
+  --text-secondary: #A3A3A3;
+  --text-muted: #525252;
+  --text-inverse: #0A0A0A;
+  
+  --border-color: #262626;
+  --border-hover: #404040;
+  
+  --accent-primary: #FFFFFF;
+  --accent-secondary: #E5E5E5;
+  --accent-gradient: linear-gradient(135deg, #FFFFFF 0%, #E5E5E5 100%);
+  
+  --glass-bg: rgba(10, 10, 10, 0.8);
+  --glass-border: rgba(255, 255, 255, 0.05);
+  
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.2);
+  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.3);
+  --shadow-lg: 0 8px 30px rgba(0, 0, 0, 0.4);
+  --shadow-xl: 0 20px 60px rgba(0, 0, 0, 0.5);
+}
+
+/* ========================================
+   BASE STYLES
+   ======================================== */
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* ========================================
+   UTILITY CLASSES
+   ======================================== */
+@layer utilities {
+  .animate-marquee {
+    animation: marquee 40s linear infinite;
+  }
+  
+  .animate-fade-up {
+    animation: fadeUp 0.8s ease-out forwards;
+  }
+  
+  .animate-fade-in {
+    animation: fadeIn 0.6s ease-out forwards;
+  }
+  
+  .animate-scale-in {
+    animation: scaleIn 0.5s ease-out forwards;
+  }
+  
+  .gradient-text {
+    background: var(--accent-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  
+  .glass {
+    background: var(--glass-bg);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border-bottom: 1px solid var(--glass-border);
+  }
+  
+  .glass-strong {
+    background: var(--glass-bg);
+    backdrop-filter: blur(40px);
+    -webkit-backdrop-filter: blur(40px);
+    border-bottom: 1px solid var(--glass-border);
+  }
+  
+  .hover-lift {
+    transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+  
+  .hover-lift:hover {
+    transform: translateY(-2px);
+  }
+  
+  .bg-grid {
+    background-image: 
+      linear-gradient(var(--border-color) 1px, transparent 1px),
+      linear-gradient(90deg, var(--border-color) 1px, transparent 1px);
+    background-size: 80px 80px;
+  }
+  
+  .bg-dots {
+    background-image: radial-gradient(var(--border-color) 1px, transparent 1px);
+    background-size: 24px 24px;
+  }
+  
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .line-clamp-1 {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+  }
+
+  .line-clamp-2 {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+  }
+}
+
+/* ========================================
+   KEYFRAMES
+   ======================================== */
+@keyframes marquee {
+  0% { transform: translateX(0%); }
+  100% { transform: translateX(-50%); }
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes scaleIn {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes reveal {
+  from {
+    clip-path: inset(0 100% 0 0);
+  }
+  to {
+    clip-path: inset(0 0 0 0);
+  }
+}
+
+/* ========================================
+   SCROLLBAR STYLING
+   ======================================== */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--border-color);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--text-muted);
+}
+
+/* ========================================
+   SELECTION STYLING
+   ======================================== */
+::selection {
+  background: var(--text-primary);
+  color: var(--text-inverse);
+}
+
+/* ========================================
+   FOCUS STYLES
+   ======================================== */
+:focus-visible {
+  outline: 1px solid var(--text-primary);
+  outline-offset: 2px;
+}
+
+/* ========================================
+   PREMIUM BUTTON STYLES
+   ======================================== */
+.btn-primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  background: var(--bg-accent);
+  color: var(--text-inverse);
+  padding: 1rem 2.5rem;
+  font-size: 0.75rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+  position: relative;
+  overflow: hidden;
+}
+
+.btn-primary:hover {
+  transform: translateY(-1px);
+  box-shadow: var(--shadow-lg);
+}
+
+.btn-primary:active {
+  transform: translateY(0);
+}
+
+.btn-secondary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  background: transparent;
+  color: var(--text-primary);
+  padding: 1rem 2.5rem;
+  font-size: 0.75rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  border: 1px solid var(--text-primary);
+  transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.btn-secondary:hover {
+  background: var(--bg-accent);
+  color: var(--text-inverse);
+  border-color: var(--bg-accent);
+}
+
+.btn-outline {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  background: transparent;
+  color: var(--text-primary);
+  border: 1px solid var(--border-color);
+  padding: 1rem 2rem;
+  font-size: 0.75rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  transition: all 0.3s ease;
+}
+
+.btn-outline:hover {
+  border-color: var(--text-primary);
+}
+
+.btn-ghost {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  background: transparent;
+  color: var(--text-primary);
+  padding: 0.75rem 1.5rem;
+  font-size: 0.75rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  transition: all 0.3s ease;
+}
+
+.btn-ghost:hover {
+  background: var(--bg-tertiary);
+}
+
+/* Legacy support */
+.btn-gradient {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  background: var(--bg-accent);
+  color: var(--text-inverse);
+  padding: 1rem 2.5rem;
+  font-size: 0.75rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.btn-gradient:hover {
+  opacity: 0.9;
+  transform: translateY(-1px);
+}
+
+/* ========================================
+   CARD STYLES
+   ======================================== */
+.card {
+  background: var(--bg-primary);
+  border: 1px solid var(--border-color);
+  transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.card:hover {
+  border-color: var(--border-hover);
+}
+
+.card-glass {
+  background: var(--glass-bg);
+  backdrop-filter: blur(20px);
+  border: 1px solid var(--glass-border);
+}
+
+/* ========================================
+   INPUT STYLES
+   ======================================== */
+.input {
+  background: var(--bg-primary);
+  border: 1px solid var(--border-color);
+  color: var(--text-primary);
+  padding: 1rem 1.25rem;
+  font-size: 0.875rem;
+  transition: all 0.3s ease;
+  width: 100%;
+}
+
+.input:focus {
+  outline: none;
+  border-color: var(--text-primary);
+}
+
+.input::placeholder {
+  color: var(--text-muted);
+}
+
+/* ========================================
+   BADGE STYLES
+   ======================================== */
+.badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.375rem 0.75rem;
+  font-size: 0.625rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.badge-sale {
+  background: var(--bg-accent);
+  color: var(--text-inverse);
+}
+
+.badge-new {
+  background: var(--bg-accent);
+  color: var(--text-inverse);
+}
+
+.badge-sold-out {
+  background: var(--bg-tertiary);
+  color: var(--text-muted);
+}
+
+/* ========================================
+   TYPOGRAPHY HELPERS
+   ======================================== */
+.heading-display {
+  font-size: clamp(3rem, 10vw, 8rem);
+  font-weight: 300;
+  letter-spacing: -0.03em;
+  line-height: 0.9;
+}
+
+.heading-xl {
+  font-size: clamp(2.5rem, 6vw, 5rem);
+  font-weight: 400;
+  letter-spacing: -0.02em;
+  line-height: 1;
+}
+
+.heading-lg {
+  font-size: clamp(1.5rem, 3vw, 2.5rem);
+  font-weight: 400;
+  letter-spacing: -0.01em;
+  line-height: 1.1;
+}
+
+.text-caption {
+  font-size: 0.75rem;
+  font-weight: 400;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+/* ========================================
+   LINK STYLES
+   ======================================== */
+.link-underline {
+  position: relative;
+}
+
+.link-underline::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 1px;
+  background: var(--text-primary);
+  transition: width 0.3s ease;
+}
+
+.link-underline:hover::after {
+  width: 100%;
+}
+
+/* ========================================
+   DIVIDER STYLES
+   ======================================== */
+.divider {
+  height: 1px;
+  background: var(--border-color);
+  width: 100%;
+}
+
+.divider-vertical {
+  width: 1px;
+  background: var(--border-color);
+  height: 100%;
+}
